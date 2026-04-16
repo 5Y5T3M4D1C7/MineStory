@@ -1,0 +1,56 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/DangerZone/issues"
+
+[[mods]]
+itemIcon="dangerzone:cake_sword"
+
+configBackground="dangerzone:textures/blocks/egg/kyuubi_egg_ore.png"
+
+modId="dangerzone"
+
+updateJsonUrl="https://forge.curseupdate.com/406601/dangerzone"
+
+version="3.2.6"
+
+displayName="AdventureKraft"
+
+displayURL="https://officialteamolympus.weebly.com/craftzone.html"
+
+logoFile="dangerzone.png"
+
+credits="Thanks for this mod goes to TheyCallMeDanger for making DangerZone the game"
+
+authors=["RedRoseWarrior1 aka DevMaster1015","coolGi007"]
+
+description='''
+Brings DangerZone to Minecraft
+'''
+
+# Base Forge
+[[dependencies.dangerzone]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.dangerzone]]
+    modId="minecraft"
+    mandatory=true
+versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"
+
+# Rises the limit for health, without it the mobs with above 512 health will have 512 health
+[[dependencies.dangerzone]]
+modId="attributefix"
+mandatory=false
+versionRange="[10.1.2,)"
+ordering="NONE"
+side="BOTH"
